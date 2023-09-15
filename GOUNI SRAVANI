@@ -1,0 +1,14 @@
+input_1=input().split(" ")
+a=int(input_1[0])
+b=int(input_1[2])
+c=input_1[1]
+if c=="+":
+    print(a+b)
+elif c=="-":
+    print(a-b)
+elif c=="*":
+    print(a*b)
+elif c=="/":
+    print(a/b)
+elif c=="%":
+    print(a%b)
